@@ -19,9 +19,7 @@ install:
   - composer install --prefer-dist --no-interaction
 
 script:
-  - vendor/bin/phpunit --coverage-clover ./clover.xml
+  - vendor/bin/phpunit --coverage-clover build/logs/clover.xml
 
 after_success:
   - php vendor/bin/coveralls -v
-
-
