@@ -5,10 +5,12 @@ php:
   - 7.0
   - 7.1
   - hhvm
+  - nightly
 
 matrix:
   allow_failures:
   - php: hhvm
+  - php: nightly
 
 before_install:
   - composer self-update
@@ -17,9 +19,9 @@ install:
   - composer install --prefer-dist --no-interaction
 
 script:
-  - vendor/bin/phpunit
+  - vendor/bin/phpunit --coverage-clover ./clover.xml
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - php vendor/bin/coveralls -v
 
 
