@@ -1,6 +1,6 @@
 <?php
 
-use Mhytry\Silex\SimpleBus\CommandBusServiceProvider;
+use Mhytry\Silex\SimpleBus\CommandBus\CommandBusServiceProvider;
 use Silex\Application;
 
 require_once __DIR__ . '/../vendor/autoload.php';

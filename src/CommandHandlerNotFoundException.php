@@ -1,6 +1,6 @@
 <?php
 
-namespace Mhytry\Silex\SimpleBus;
+namespace Mhytry\Silex\SimpleBus\CommandBus;
 
 
 use Exception;

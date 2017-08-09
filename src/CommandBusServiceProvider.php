@@ -6,7 +6,7 @@
  * Time: 11:15
  */
 
-namespace Mhytry\Silex\SimpleBus;
+namespace Mhytry\Silex\SimpleBus\CommandBus;
 
 
 use Pimple\Container;

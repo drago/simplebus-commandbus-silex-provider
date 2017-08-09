@@ -1,7 +1,7 @@
 {
-  "name": "mhytry/simplebus-silex-provider",
+  "name": "mhytry/simplebus-commandbus-silex-provider",
   "type": "library",
-  "description": "A silex service provider for simplebus/messagebus",
+  "description": "A silex service provider for commandbus using simplebus/messagebus",
   "keywords": ["simplebus", "commandbus", "service", "provider", "silex"],
   "license": "MIT",
   "authors": [
@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Mhytry\\Silex\\SimpleBus\\": "src"
+      "Mhytry\\Silex\\SimpleBus\\CommandBus\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mhytry\\Silex\\SimpleBus\\Tests\\": "tests"
+      "Mhytry\\Silex\\SimpleBus\\CommandBus\\Tests\\": "tests"
     }
   }
 }
