@@ -1,8 +1,9 @@
 {
-  "name": "drago/simplebus-service-provider",
-  "description": "description_text",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "name": "drago/simplebus-silex-provider",
+  "type": "library",
+  "description": "A silex service provider for simplebus/messagebus",
+  "keywords": ["simplebus", "commandbus", "service", "provider", "silex"],
+  "license": "MIT",
   "authors": [
     {
       "name": "Michał Hytry",
