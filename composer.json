@@ -1,5 +1,5 @@
 {
-  "name": "drago/simplebus-silex-provider",
+  "name": "mhytry/simplebus-silex-provider",
   "type": "library",
   "description": "A silex service provider for simplebus/messagebus",
   "keywords": ["simplebus", "commandbus", "service", "provider", "silex"],
@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Drago\\Silex\\SimpleBus\\": "src"
+      "Mhytry\\Silex\\SimpleBus\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Drago\\Silex\\SimpleBus\\Tests\\": "tests"
+      "Mhytry\\Silex\\SimpleBus\\Tests\\": "tests"
     }
   }
 }

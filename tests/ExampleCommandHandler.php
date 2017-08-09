@@ -6,7 +6,7 @@
  * Time: 14:30
  */
 
-namespace Drago\Silex\SimpleBus\Tests;
+namespace Mhytry\Silex\SimpleBus\Tests;
 
 
 class ExampleCommandHandler

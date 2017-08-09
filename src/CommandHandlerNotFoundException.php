@@ -1,6 +1,6 @@
 <?php
 
-namespace Drago\Silex\SimpleBus;
+namespace Mhytry\Silex\SimpleBus;
 
 
 use Exception;

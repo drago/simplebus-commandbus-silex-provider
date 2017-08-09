@@ -6,7 +6,7 @@
  * Time: 11:15
  */
 
-namespace Drago\Silex\SimpleBus;
+namespace Mhytry\Silex\SimpleBus;
 
 
 use Pimple\Container;

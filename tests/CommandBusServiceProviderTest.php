@@ -1,9 +1,9 @@
 <?php
 
-namespace Drago\Silex\SimpleBus\Tests;
+namespace Mhytry\Silex\SimpleBus\Tests;
 
-use Drago\Silex\SimpleBus\CommandBusServiceProvider;
-use Drago\Silex\SimpleBus\CommandHandlerNotFoundException;
+use Mhytry\Silex\SimpleBus\CommandBusServiceProvider;
+use Mhytry\Silex\SimpleBus\CommandHandlerNotFoundException;
 use PHPUnit\Framework\TestCase;
 use Silex\Application;
 use SimpleBus\Message\Bus\Middleware\MessageBusSupportingMiddleware;
